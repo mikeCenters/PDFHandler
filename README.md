@@ -1,16 +1,11 @@
-<a href="https://image.flaticon.com/icons/png/512/337/337946.png"></a>
-
 # PDFHandler
 
 > SwiftUI compatible PDF View
 
 
-- [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-
-
 ---
 
-## Example (Optional)
+## Example
 
 ```
 struct ContentView: View {

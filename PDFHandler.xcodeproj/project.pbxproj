@@ -18,7 +18,7 @@
 		BA660EFD2497BFA700522512 /* PDFViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660EFC2497BFA700522512 /* PDFViewRep.swift */; };
 		BA660F032497C3EE00522512 /* SamplePDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA660F022497C3EE00522512 /* SamplePDF.pdf */; };
 		BA660F082497C72400522512 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA660F072497C72400522512 /* README.md */; };
-		BA660F0A2497C88100522512 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA660F092497C88100522512 /* license.txt */; };
+		BA660F0A2497C88100522512 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA660F092497C88100522512 /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		BA660EFC2497BFA700522512 /* PDFViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewRep.swift; sourceTree = "<group>"; };
 		BA660F022497C3EE00522512 /* SamplePDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SamplePDF.pdf; sourceTree = "<group>"; };
 		BA660F072497C72400522512 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		BA660F092497C88100522512 /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		BA660F092497C88100522512 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				BA660F072497C72400522512 /* README.md */,
-				BA660F092497C88100522512 /* license.txt */,
+				BA660F092497C88100522512 /* LICENSE.txt */,
 				BA660EE12497BF1B00522512 /* PDFHandler */,
 				BA660EE02497BF1B00522512 /* Products */,
 			);
@@ -159,7 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA660F0A2497C88100522512 /* license.txt in Resources */,
+				BA660F0A2497C88100522512 /* LICENSE.txt in Resources */,
 				BA660EF22497BF1C00522512 /* LaunchScreen.storyboard in Resources */,
 				BA660F032497C3EE00522512 /* SamplePDF.pdf in Resources */,
 				BA660F082497C72400522512 /* README.md in Resources */,
