@@ -12,11 +12,9 @@ struct ContentView: View {
     let document: PDFDocument
 
     var body: some View {
-        VStack {
-            ViewPDF(document: self.document,
-                    displayDirection: .vertical,
-                    displayMode: .singlePageContinuous)
-        }
+        ViewPDF(document: self.document,
+                displayDirection: .vertical,
+                displayMode: .singlePageContinuous)
     }
 }
 ```
