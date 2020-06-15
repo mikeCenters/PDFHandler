@@ -10,6 +10,7 @@ import SwiftUI
 import PDFKit
 
 
+/// View Rep to communitcate SwiftUI to UIKit.
 struct PDFViewRep: UIViewRepresentable {
     let document: PDFDocument
     let displayDirection: PDFKit.PDFDisplayDirection
