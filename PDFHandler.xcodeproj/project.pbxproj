@@ -14,6 +14,9 @@
 		BA660EEC2497BF1C00522512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA660EEB2497BF1C00522512 /* Assets.xcassets */; };
 		BA660EEF2497BF1C00522512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA660EEE2497BF1C00522512 /* Preview Assets.xcassets */; };
 		BA660EF22497BF1C00522512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA660EF02497BF1C00522512 /* LaunchScreen.storyboard */; };
+		BA660EFB2497BF7D00522512 /* ViewPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660EFA2497BF7D00522512 /* ViewPDF.swift */; };
+		BA660EFD2497BFA700522512 /* PDFViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660EFC2497BFA700522512 /* PDFViewRep.swift */; };
+		BA660EFF2497C06A00522512 /* SamplePDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA660EFE2497C06A00522512 /* SamplePDF.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		BA660EEE2497BF1C00522512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA660EF12497BF1C00522512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA660EF32497BF1C00522512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA660EFA2497BF7D00522512 /* ViewPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPDF.swift; sourceTree = "<group>"; };
+		BA660EFC2497BFA700522512 /* PDFViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewRep.swift; sourceTree = "<group>"; };
+		BA660EFE2497C06A00522512 /* SamplePDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SamplePDF.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,8 @@
 		BA660EE12497BF1B00522512 /* PDFHandler */ = {
 			isa = PBXGroup;
 			children = (
+				BA660EFE2497C06A00522512 /* SamplePDF.pdf */,
+				BA660EF92497BF3100522512 /* Components */,
 				BA660EE22497BF1B00522512 /* AppDelegate.swift */,
 				BA660EE42497BF1B00522512 /* SceneDelegate.swift */,
 				BA660EE92497BF1B00522512 /* ContentView.swift */,
@@ -76,6 +84,15 @@
 				BA660EEE2497BF1C00522512 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA660EF92497BF3100522512 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BA660EFA2497BF7D00522512 /* ViewPDF.swift */,
+				BA660EFC2497BFA700522512 /* PDFViewRep.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA660EF22497BF1C00522512 /* LaunchScreen.storyboard in Resources */,
+				BA660EFF2497C06A00522512 /* SamplePDF.pdf in Resources */,
 				BA660EEF2497BF1C00522512 /* Preview Assets.xcassets in Resources */,
 				BA660EEC2497BF1C00522512 /* Assets.xcassets in Resources */,
 			);
@@ -149,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA660EFB2497BF7D00522512 /* ViewPDF.swift in Sources */,
+				BA660EFD2497BFA700522512 /* PDFViewRep.swift in Sources */,
 				BA660EE32497BF1B00522512 /* AppDelegate.swift in Sources */,
 				BA660EE52497BF1B00522512 /* SceneDelegate.swift in Sources */,
 				BA660EEA2497BF1B00522512 /* ContentView.swift in Sources */,
