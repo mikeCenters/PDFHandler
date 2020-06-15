@@ -12,10 +12,14 @@ import PDFKit
 
 struct ViewPDF: View {
     let document: PDFDocument
+    let displayDirection: PDFKit.PDFDisplayDirection
+    let displayMode: PDFKit.PDFDisplayMode
     
     var body: some View {
         
-        PDFViewRep(document: self.document)
+        PDFViewRep(document: self.document,
+                   displayDirection: self.displayDirection,
+                   displayMode: self.displayMode)
     }
 }
 

@@ -12,6 +12,8 @@ import PDFKit
 
 struct PDFViewRep: UIViewRepresentable {
     let document: PDFDocument
+    let displayDirection: PDFKit.PDFDisplayDirection
+    let displayMode: PDFKit.PDFDisplayMode
     
     
     func makeUIView(context: Context) -> UIView {
@@ -21,11 +23,11 @@ struct PDFViewRep: UIViewRepresentable {
 
 
         pdfView.translatesAutoresizingMaskIntoConstraints = false
-
-        pdfView.document = self.document
         pdfView.autoScales = true
-        pdfView.displayMode = .singlePageContinuous
-        pdfView.displayDirection = .vertical
+        
+        pdfView.document = self.document
+        pdfView.displayMode = self.displayMode
+        pdfView.displayDirection = self.displayDirection
 
         view.addSubview(pdfView)
         pdfView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true

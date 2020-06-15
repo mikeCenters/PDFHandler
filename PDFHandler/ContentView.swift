@@ -32,7 +32,9 @@ struct ContentView: View {
     var body: some View {
         
         VStack {
-            ViewPDF(document: self.document)
+            ViewPDF(document: self.document,
+                    displayDirection: .vertical,
+                    displayMode: .singlePageContinuous)
         }
     }
 }
