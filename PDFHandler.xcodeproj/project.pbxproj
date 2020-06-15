@@ -17,6 +17,8 @@
 		BA660EFB2497BF7D00522512 /* ViewPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660EFA2497BF7D00522512 /* ViewPDF.swift */; };
 		BA660EFD2497BFA700522512 /* PDFViewRep.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660EFC2497BFA700522512 /* PDFViewRep.swift */; };
 		BA660F032497C3EE00522512 /* SamplePDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BA660F022497C3EE00522512 /* SamplePDF.pdf */; };
+		BA660F082497C72400522512 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA660F072497C72400522512 /* README.md */; };
+		BA660F0A2497C88100522512 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA660F092497C88100522512 /* license.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		BA660EFA2497BF7D00522512 /* ViewPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPDF.swift; sourceTree = "<group>"; };
 		BA660EFC2497BFA700522512 /* PDFViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewRep.swift; sourceTree = "<group>"; };
 		BA660F022497C3EE00522512 /* SamplePDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SamplePDF.pdf; sourceTree = "<group>"; };
+		BA660F072497C72400522512 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA660F092497C88100522512 /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 		BA660EE12497BF1B00522512 /* PDFHandler */ = {
 			isa = PBXGroup;
 			children = (
+				BA660F072497C72400522512 /* README.md */,
+				BA660F092497C88100522512 /* license.txt */,
 				BA660F022497C3EE00522512 /* SamplePDF.pdf */,
 				BA660EF92497BF3100522512 /* Components */,
 				BA660EE22497BF1B00522512 /* AppDelegate.swift */,
@@ -153,8 +159,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA660F0A2497C88100522512 /* license.txt in Resources */,
 				BA660EF22497BF1C00522512 /* LaunchScreen.storyboard in Resources */,
 				BA660F032497C3EE00522512 /* SamplePDF.pdf in Resources */,
+				BA660F082497C72400522512 /* README.md in Resources */,
 				BA660EEF2497BF1C00522512 /* Preview Assets.xcassets in Resources */,
 				BA660EEC2497BF1C00522512 /* Assets.xcassets in Resources */,
 			);
