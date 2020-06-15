@@ -52,6 +52,8 @@
 		BA660ED62497BF1B00522512 = {
 			isa = PBXGroup;
 			children = (
+				BA660F072497C72400522512 /* README.md */,
+				BA660F092497C88100522512 /* license.txt */,
 				BA660EE12497BF1B00522512 /* PDFHandler */,
 				BA660EE02497BF1B00522512 /* Products */,
 			);
@@ -68,8 +70,6 @@
 		BA660EE12497BF1B00522512 /* PDFHandler */ = {
 			isa = PBXGroup;
 			children = (
-				BA660F072497C72400522512 /* README.md */,
-				BA660F092497C88100522512 /* license.txt */,
 				BA660F022497C3EE00522512 /* SamplePDF.pdf */,
 				BA660EF92497BF3100522512 /* Components */,
 				BA660EE22497BF1B00522512 /* AppDelegate.swift */,
