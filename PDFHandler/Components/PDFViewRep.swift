@@ -19,22 +19,35 @@ struct PDFViewRep: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UIView {
         
+        /// Instantiate the UIView and PDFView.
         let view = UIView()
         let pdfView = PDFView()
 
 
-        pdfView.translatesAutoresizingMaskIntoConstraints = false
-        pdfView.autoScales = true
-        
+        /// Set the document and options.
         pdfView.document = self.document
         pdfView.displayMode = self.displayMode
         pdfView.displayDirection = self.displayDirection
 
+        
+        /// Add subview and activate autolayout constraints.
+        pdfView.autoScales = true
+        pdfView.translatesAutoresizingMaskIntoConstraints = false
+        
         view.addSubview(pdfView)
-        pdfView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
-        pdfView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
-        pdfView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
-        pdfView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        pdfView.leadingAnchor
+            .constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor)
+            .isActive = true
+        pdfView.trailingAnchor
+            .constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor)
+            .isActive = true
+        pdfView.topAnchor
+            .constraint(equalTo: view.safeAreaLayoutGuide.topAnchor)
+            .isActive = true
+        pdfView.bottomAnchor
+            .constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            .isActive = true
+        
         return view
     }
     
