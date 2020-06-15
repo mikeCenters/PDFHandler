@@ -71,14 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				BA660F022497C3EE00522512 /* SamplePDF.pdf */,
-				BA660EF92497BF3100522512 /* Components */,
-				BA660EE22497BF1B00522512 /* AppDelegate.swift */,
-				BA660EE42497BF1B00522512 /* SceneDelegate.swift */,
 				BA660EE92497BF1B00522512 /* ContentView.swift */,
-				BA660EEB2497BF1C00522512 /* Assets.xcassets */,
-				BA660EF02497BF1C00522512 /* LaunchScreen.storyboard */,
-				BA660EF32497BF1C00522512 /* Info.plist */,
-				BA660EE62497BF1B00522512 /* PDFHandler.xcdatamodeld */,
+				BA660EF92497BF3100522512 /* Components */,
+				BA660F0B2497FEF500522512 /* Unmodified */,
 				BA660EED2497BF1C00522512 /* Preview Content */,
 			);
 			path = PDFHandler;
@@ -99,6 +94,19 @@
 				BA660EFC2497BFA700522512 /* PDFViewRep.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		BA660F0B2497FEF500522512 /* Unmodified */ = {
+			isa = PBXGroup;
+			children = (
+				BA660EE22497BF1B00522512 /* AppDelegate.swift */,
+				BA660EE42497BF1B00522512 /* SceneDelegate.swift */,
+				BA660EEB2497BF1C00522512 /* Assets.xcassets */,
+				BA660EF02497BF1C00522512 /* LaunchScreen.storyboard */,
+				BA660EF32497BF1C00522512 /* Info.plist */,
+				BA660EE62497BF1B00522512 /* PDFHandler.xcdatamodeld */,
+			);
+			path = Unmodified;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
