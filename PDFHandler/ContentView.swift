@@ -11,32 +11,17 @@ import PDFKit
 
 
 struct ContentView: View {
-    let document: PDFDocument
+    @ObservedObject var viewModel = ContentViewModel()
     
-    
-    init() {
-        guard let path = Bundle.main.url(forResource: "SamplePDF",
-                                         withExtension: ".pdf")
-            else {
-                fatalError("Invalid path")
-        }
-        guard let document = PDFDocument(url: path)
-            else {
-                fatalError("PDF Document could not be created")
-        }
-        
-        self.document = document
-    }
     
     
     var body: some View {
-        
-        ViewPDF(document: self.document,
+        ViewPDF(document: self.viewModel.document,
                 displayDirection: .vertical,
-                displayMode: .singlePageContinuous)
+                displayMode: .singlePageContinuous
+        )
     }
 }
-
 
 
 
