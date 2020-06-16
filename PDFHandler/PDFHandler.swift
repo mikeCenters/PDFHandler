@@ -9,18 +9,24 @@
 import PDFKit
 
 
+// MARK: - PDF Handler
 /// Object used to manage PDF files.
 class PDFHandler {
+    /// Model object for handling. This is the PDF document that is being processed.
     private var document = PDFDocument()
-    
     
     
 }
 
-
+// MARK: - PDF Handler Functions
 extension PDFHandler {
     
-    /// Return the PDF document with the given path.
+    /// Load the document for handling.
+    func loadDocument(path: String) {
+        self.document = getDocument(path: path)
+    }
+    
+    /// Get the PDF document with the given path.
     func getDocument(path: String) -> PDFDocument {
         guard let path = Bundle.main.url(forResource: path,
                                          withExtension: ".pdf")
@@ -35,8 +41,4 @@ extension PDFHandler {
         return document
     }
     
-    /// Load the document for handling.
-    func loadDocument(path: String) {
-        self.document = getDocument(path: path)
-    }
 }
