@@ -1,11 +1,18 @@
-# PDFHandler
+# PDFAgent
 
 > SwiftUI compatible PDF View
 
 
 ---
 
-## Example
+PDF Agent is an object used to manipulate PDF files with the use of SwiftUI views. 
+
+
+---
+# Currently Working
+
+
+## Load document into SwiftUI body.
 
 ```
 struct ContentView: View {
@@ -18,7 +25,6 @@ struct ContentView: View {
     }
 }
 ```
-
 
 
 
