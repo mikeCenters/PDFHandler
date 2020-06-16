@@ -20,6 +20,9 @@ struct ContentView: View {
                 displayDirection: .vertical,
                 displayMode: .singlePageContinuous
         )
+            .onAppear() {
+                self.viewModel.loadPDF(path: "SamplePDF")
+        }
     }
 }
 

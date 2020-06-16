@@ -43,8 +43,6 @@ struct ViewPDF_Previews: PreviewProvider {
         }
         
         return document
-        
-        
     }()
     
     

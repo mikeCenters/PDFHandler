@@ -11,22 +11,22 @@ import PDFKit
 
 
 class ContentViewModel: ObservableObject {
+    private var pdfHandler: PDFHandler
     @Published var document: PDFDocument
     
     
-    
-    
     init() {
-        guard let path = Bundle.main.url(forResource: "SamplePDF",
-                                         withExtension: ".pdf")
-            else {
-                fatalError("Invalid path")
-        }
-        guard let document = PDFDocument(url: path)
-            else {
-                fatalError("PDF Document could not be created")
-        }
-        
-        self.document = document
+        self.pdfHandler = PDFHandler()
+        self.document = PDFDocument()
     }
 }
+
+extension ContentViewModel {
+    
+    /// Load PDF files.
+    func loadPDF(path: String) {
+        self.document = self.pdfHandler.getDocument(path: path)
+    }
+    
+}
+

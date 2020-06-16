@@ -52,6 +52,7 @@ struct PDFViewRep: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: UIView, context: Context) {
-        
+        let view = uiView.subviews[0] as! PDFView
+        view.document = self.document
     }
 }
