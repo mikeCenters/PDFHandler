@@ -20,7 +20,7 @@
 		BA660F082497C72400522512 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BA660F072497C72400522512 /* README.md */; };
 		BA660F0A2497C88100522512 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA660F092497C88100522512 /* LICENSE.txt */; };
 		BA660F0D249806F500522512 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660F0C249806F500522512 /* ContentViewModel.swift */; };
-		BA660F0F2498578600522512 /* PDFHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660F0E2498578600522512 /* PDFHandler.swift */; };
+		BA660F0F2498578600522512 /* PDFAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA660F0E2498578600522512 /* PDFAgent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,7 @@
 		BA660F072497C72400522512 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA660F092497C88100522512 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		BA660F0C249806F500522512 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
-		BA660F0E2498578600522512 /* PDFHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFHandler.swift; sourceTree = "<group>"; };
+		BA660F0E2498578600522512 /* PDFAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFAgent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				BA660F022497C3EE00522512 /* SamplePDF.pdf */,
-				BA660F0E2498578600522512 /* PDFHandler.swift */,
+				BA660F0E2498578600522512 /* PDFAgent.swift */,
 				BA660F0C249806F500522512 /* ContentViewModel.swift */,
 				BA660EE92497BF1B00522512 /* ContentView.swift */,
 				BA660EF92497BF3100522512 /* View Components */,
@@ -192,7 +192,7 @@
 				BA660EFB2497BF7D00522512 /* ViewPDF.swift in Sources */,
 				BA660EFD2497BFA700522512 /* PDFViewRep.swift in Sources */,
 				BA660EE32497BF1B00522512 /* AppDelegate.swift in Sources */,
-				BA660F0F2498578600522512 /* PDFHandler.swift in Sources */,
+				BA660F0F2498578600522512 /* PDFAgent.swift in Sources */,
 				BA660F0D249806F500522512 /* ContentViewModel.swift in Sources */,
 				BA660EE52497BF1B00522512 /* SceneDelegate.swift in Sources */,
 				BA660EEA2497BF1B00522512 /* ContentView.swift in Sources */,

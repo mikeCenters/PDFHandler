@@ -9,9 +9,9 @@
 import PDFKit
 
 
-// MARK: - PDF Handler
+// MARK: - PDF Agent
 /// Object used to manage PDF files.
-class PDFHandler {
+class PDFAgent {
     /// Model object for handling. This is the PDF document that is being processed.
     private var document = PDFDocument()
     
@@ -19,15 +19,10 @@ class PDFHandler {
 }
 
 // MARK: - PDF Handler Functions
-extension PDFHandler {
+extension PDFAgent {
     
     /// Load the document for handling.
     func loadDocument(path: String) {
-        self.document = getDocument(path: path)
-    }
-    
-    /// Get the PDF document with the given path.
-    func getDocument(path: String) -> PDFDocument {
         guard let path = Bundle.main.url(forResource: path,
                                          withExtension: ".pdf")
             else {
@@ -38,7 +33,12 @@ extension PDFHandler {
                 fatalError("PDF Document could not be created")
         }
         
-        return document
+        self.document = document
+    }
+    
+    /// Get the PDF document used by the agent.
+    func getDocument() -> PDFDocument {
+        return self.document
     }
     
 }

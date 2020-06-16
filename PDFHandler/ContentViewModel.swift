@@ -11,12 +11,12 @@ import PDFKit
 
 
 class ContentViewModel: ObservableObject {
-    private var pdfHandler: PDFHandler
+    private var pdfAgent: PDFAgent
     @Published var document: PDFDocument
     
     
     init() {
-        self.pdfHandler = PDFHandler()
+        self.pdfAgent = PDFAgent()
         self.document = PDFDocument()
     }
 }
@@ -25,7 +25,8 @@ extension ContentViewModel {
     
     /// Load PDF files.
     func loadPDF(path: String) {
-        self.document = self.pdfHandler.getDocument(path: path)
+        self.pdfAgent.loadDocument(path: path)
+        self.document = self.pdfAgent.getDocument()
     }
     
 }
