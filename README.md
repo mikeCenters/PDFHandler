@@ -9,6 +9,12 @@ PDF Agent is an object used to manipulate PDF files with the use of SwiftUI view
 
 
 ---
+
+# Branches
+The "master" branch is the complete xCode project.
+
+The "package" branch is used for import into an existing project.
+
 # Currently Working
 
 

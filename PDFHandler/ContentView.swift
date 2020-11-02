@@ -9,6 +9,28 @@
 import SwiftUI
 import PDFKit
 
+class ContentViewModel: ObservableObject {
+    private var pdfAgent: PDFAgent
+    @Published var document: PDFDocument
+    
+    
+    init() {
+        self.pdfAgent = PDFAgent()
+        self.document = PDFDocument()
+    }
+}
+
+extension ContentViewModel {
+    
+    /// Load PDF files.
+    func loadPDF(path: String) {
+        self.pdfAgent.loadDocument(path: path)
+        self.document = self.pdfAgent.getDocument()
+    }
+    
+}
+
+
 
 struct ContentView: View {
     @ObservedObject var viewModel = ContentViewModel()
