@@ -15,12 +15,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BA660EDF2497BF1B00522512 /* PDFHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PDFHandler.app; path = "/Users/mikecenters/Developer/Projects/Swift/PDFHandler/build/Debug-iphoneos/PDFHandler.app"; sourceTree = "<absolute>"; };
 		BA660EFA2497BF7D00522512 /* ViewPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPDF.swift; sourceTree = "<group>"; };
 		BA660EFC2497BFA700522512 /* PDFViewRep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFViewRep.swift; sourceTree = "<group>"; };
 		BA660F072497C72400522512 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA660F092497C88100522512 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		BA660F0E2498578600522512 /* PDFHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFHandler.swift; sourceTree = "<group>"; };
+		BAFD5BF0254F882700CDBFFB /* PDFHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = PDFHandler.app; path = "/Users/mikecenters/Developer/Projects/Swift/PDFHandler/build/Debug-iphoneos/PDFHandler.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,8 +37,6 @@
 		BA660ED62497BF1B00522512 = {
 			isa = PBXGroup;
 			children = (
-				BA660F072497C72400522512 /* README.md */,
-				BA660F092497C88100522512 /* LICENSE.txt */,
 				BAFD5BEA254F873300CDBFFB /* Package */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +53,8 @@
 		BAFD5BEA254F873300CDBFFB /* Package */ = {
 			isa = PBXGroup;
 			children = (
+				BA660F072497C72400522512 /* README.md */,
+				BA660F092497C88100522512 /* LICENSE.txt */,
 				BA660F0E2498578600522512 /* PDFHandler.swift */,
 				BA660EF92497BF3100522512 /* View Components */,
 			);
@@ -78,7 +78,7 @@
 			);
 			name = PDFHandler;
 			productName = PDFHandler;
-			productReference = BA660EDF2497BF1B00522512 /* PDFHandler.app */;
+			productReference = BAFD5BF0254F882700CDBFFB /* PDFHandler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
